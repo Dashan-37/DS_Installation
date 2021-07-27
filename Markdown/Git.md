@@ -6,7 +6,7 @@
 
 1.选择版本，这里以Windows版本为例
 
-![2021-07-27_201226.png](https://github.com/Dashan-37/DS_Installation/blob/master/Images/2021-07-27_201226.png?raw=true)
+![2021-07-27_201226.png](https://github.com/Dashan-37/DS_Installation/raw/master/Images/2021-07-27_201226.png)
 
 
 
@@ -14,5 +14,5 @@
 
 ①为标准版，②为精简版
 
-![2021-07-27_201611.png](https://github.com/Dashan-37/DS_Installation/blob/master/Images/2021-07-27_201611.png?raw=true)
+![2021-07-27_201611.png](https://github.com/Dashan-37/DS_Installation/raw/master/Images/2021-07-27_201611.png)
 
