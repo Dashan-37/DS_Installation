@@ -1,6 +1,6 @@
 # Windows下安装和配置Git
 
-### 一，[下载Git](https://git-scm.com/downloads)
+### 一、[下载Git](https://git-scm.com/downloads)
 
 
 
