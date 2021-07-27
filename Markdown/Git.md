@@ -4,9 +4,9 @@
 
 1.选择版本，这里以Windows版本为例
 
-![](https://github.com/Dashan-37/DS_Installation/blob/master/Images/2021-07-27_201226.png)
+![2021-07-27_201226.png](https://github.com/Dashan-37/DS_Installation/blob/master/Images/2021-07-27_201226.png)
 
 2.选择操作系统位数这里以64位为例，①为标准版，②为精简版，这里推荐①，也以①为例
 
-![](https://github.com/Dashan-37/DS_Installation/blob/master/Images/2021-07-27_201611.png)
+![2021-07-27_201611.png](https://github.com/Dashan-37/DS_Installation/blob/master/Images/2021-07-27_201611.png)
 
