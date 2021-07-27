@@ -6,7 +6,9 @@
 
 
 
-###### Typora显示图片`DS_Installation/blob/master/Images/2021-07-27_201226.png`
+仓库图片路径：`https://github.com/Dashan-37/DS_Installation/blob/master/Images/`
 
-###### `blob`替换成`raw`
+Typora显示图片：`DS_Installation/blob/master/Images/2021-07-27_201226.png`
+
+`blob`替换成`raw`
 
