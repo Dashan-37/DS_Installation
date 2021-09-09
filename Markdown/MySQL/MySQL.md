@@ -171,3 +171,21 @@ mysql>
     - 系统缺少[`Visual C++`](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0)，安装完成后即可解决问题
     - ![](https://github.com/Dashan-IZ/DS_Installation/raw/master/Images/MySQL-Images/2021-09-08_191723.png)
 
+<br>
+
+- ```shell
+  # 出现的问题
+  C:\Users\大山>mysql -u root -p
+  Enter password: ****
+  ERROR 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+  ```
+
+  - **解决办法**
+
+    - 用管理员权限在`mysql/bin`目录下运行`cmd`输入以下命令
+    
+      - ```shell
+        # 启动mysql服务，这个原因是因为mysql服务没有启动导致的
+        net start mysql
+        ```
+
