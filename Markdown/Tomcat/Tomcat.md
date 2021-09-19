@@ -84,8 +84,8 @@
 ### 四、`IDEA`中配置`Tomcat`
 
 - 打开`idea`→选择`Edit Configurations...`
-  - ![](https://github.com/Dashan-IZ/DS_Installation/raw/master/Images/2021-09-19_174752.png)
+  - ![](https://github.com/Dashan-IZ/DS_Installation/raw/master/Images/Tomcat-Images/2021-09-19_174752.png)
 
 - 选择`+`→`Tomcat Server`→`Local`
-  - ![](https://github.com/Dashan-IZ/DS_Installation/raw/master/Images/2021-09-19_175354.png)
+  - ![](https://github.com/Dashan-IZ/DS_Installation/raw/master/Images/Tomcat-Images/2021-09-19_175354.png)
 
