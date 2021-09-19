@@ -83,3 +83,9 @@
 
 ### 四、`IDEA`中配置`Tomcat`
 
+- 打开`idea`→选择`Edit Configurations...`
+  - ![](C:\Users\大山\Desktop\DS_Installation\Images\Tomcat-Images\2021-09-19_174752.png)
+
+- 选择`+`→`Tomcat Server`→`Local`
+  - ![](C:\Users\大山\Desktop\DS_Installation\Images\Tomcat-Images\2021-09-19_175354.png)
+
