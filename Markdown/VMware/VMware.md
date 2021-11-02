@@ -89,12 +89,12 @@
 
   - 解决方法：
 
-    - ```shell
-      # 查看托管状态
-      nmcli n
-      # 显示 disabled 则为本文遇到的问题，如果是 enabled 则可以不用往下看了
-      # 开启 托管
-      nmcli n on
-      # 重启
-      reboot
-      ```
+  - ```shell
+    # 查看托管状态
+    nmcli n
+    # 显示 disabled 则为本文遇到的问题，如果是 enabled 则可以不用往下看了
+    # 开启 托管
+    nmcli n on
+    # 重启
+    reboot
+    ```
