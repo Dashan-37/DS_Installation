@@ -63,10 +63,17 @@
 - 重启网卡
 
   - ```shell
+    # 任选一种方案，如果选中的方案命令提示错误，请更换
     #CentOS 7
     systemctl restart network
     #CentOS 8
     systemctl restart NetworkManager
+    
+    
+    # CentOS7
+    service network restart
+    # CentOS8
+    nmcli c reload
     ```
 
 - 设置`NetworkManger`开机自启
