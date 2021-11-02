@@ -22,12 +22,13 @@
 
 - 然后打开虚拟机，我这里以`CentOS Linux`系统为例
 
-  - 进入`ifcfg-ens33`
+  - 进入`ifcfg-ensXX`
 
   - ```shell
+    # 每个人的ensXX都不一样，我的是ens33，我以它为例
     vim /etc/sysconfig/network-scripts/ifcfg-ens33
     ```
-
+    
   - ```shell
     TYPE=Ethernet
     PROXY_METHOD=none
