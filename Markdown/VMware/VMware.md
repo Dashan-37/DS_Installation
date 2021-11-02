@@ -52,6 +52,9 @@
     NETMASK=255.255.255.0
     # 网关ip
     GATEWAY=192.168.152.2
+    # DNS
+    DNS1=114.114.114.114
+    DNS2=8.8.8.8
     ```
 
 - 改完后`:wq`保存配置
@@ -59,5 +62,39 @@
 - 重启网卡
 
   - ```shell
-    service network restart
+    #CentOS 7
+    systemctl restart network
+    #CentOS 8
+    systemctl restart NetworkManager
     ```
+
+- 设置`NetworkManger`开机自启
+
+  - ```shell
+    # 启动
+    systemctl start NetworkManger
+    # 关闭
+    systemctl stop NetworkManager
+    # 开机启动
+    systemctl enable NetworkManager
+    # 查看是否开机启动
+    systemctl is-enabled NetworkManager
+    # 禁用开机启动
+    systemctl disable NetworkManager
+    ```
+
+
+
+- **可能会遇到的问题`ifcfg-ensXX`配置`ip`后配置文件不生效，输入`ip addr`显示没有`ip`地址**
+
+  - 解决方法：
+
+    - ```shell
+      # 查看托管状态
+      nmcli n
+      # 显示 disabled 则为本文遇到的问题，如果是 enabled 则可以不用往下看了
+      # 开启 托管
+      nmcli n on
+      # 重启
+      reboot
+      ```
